@@ -34,8 +34,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
-      "ValueSet-EyeColorVS.html" : "EyeColor Value Set"
+      "ValueSet-EyeColorVS.html" : "EyeColor Value Set",
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system",
@@ -46,8 +46,8 @@
       "description" : "Compétences des professionnels de santé.",
       "uses" : {
       },
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
-      "ValueSet-CompetenceNewDisplay.html" : "Competence Value Set"
+      "ValueSet-CompetenceNewDisplay.html" : "Competence Value Set",
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/type-carte-code-system",
@@ -58,8 +58,8 @@
       "description" : "Type de carte professionnelle et personnelle.",
       "uses" : {
       },
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
-      "ValueSet-TypeCarteVS.html" : "Type Carte Value Set"
+      "ValueSet-TypeCarteVS.html" : "Type Carte Value Set",
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
     }
   ]
 }
