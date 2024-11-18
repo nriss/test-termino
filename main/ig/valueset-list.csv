@@ -1,4 +1,5 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay,0.1.0,draft,,CompetenceNewDisplay,Competence Value Set,"Competence Value Set.",,"Internal"
 https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/EyeColorVS,0.1.0,draft,,EyeColorVS,EyeColor Value Set,"Different eye colors.",,"SCT"
 https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/MeltingPotVS,0.1.0,draft,,MeltingPotVS,Melting Pot Value Set,"Melting Pot Value Set.",,"SCT,Internal"
 https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/MixLoincNOS,0.1.0,draft,,MixLoincNOS,MixLoincNOS,"MixLoincNOS",,"LOINC,Other"

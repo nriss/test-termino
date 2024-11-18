@@ -1,11 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="dbfbf09a-13d6-4c1e-a3c4-293f933f3b74"/>
+  <id value="7ecf76ea-179a-44ff-b2df-a38f9377458a"/>
   <meta>
-    <lastUpdated value="2024-11-18T12:58:10.140+00:00"/>
+    <lastUpdated value="2024-11-18T13:14:16.434+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-competence-code-system.html">codesystem Compétences CodeSystem v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 1 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system-C01"> </a>  
+                  <a href="CodeSystem-competence-code-system.html#competence-code-system-C01">C01</a>
+                </td>
+                <td>https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system</td>
+                <td>test modification libelé</td>
+                <td>
+                  <div>
+                    <p>Anatomie, Cyto patho;Anatomie et Cytologie pathologiques humaines</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay"/>
+        <version value="0.1.0"/>
+        <name value="CompetenceNewDisplay"/>
+        <title value="Competence Value Set"/>
+        <status value="draft"/>
+        <date value="2024-11-18T13:14:16+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:64f70c45-299d-433c-827e-ef41858fefaa"/>
+          <timestamp value="2024-11-18T13:14:31+00:00"/>
+          <total value="1"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system"/>
+            <code value="C01"/>
+            <display value="test modification libelé"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/EyeColorVS"/>
     <resource>
@@ -68,7 +157,7 @@
         <name value="EyeColorVS"/>
         <title value="EyeColor Value Set"/>
         <status value="draft"/>
-        <date value="2024-11-18T12:58:10+00:00"/>
+        <date value="2024-11-18T13:14:16+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -77,8 +166,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8f47d511-6c9b-4b1b-9b38-17bcc024f5c1"/>
-          <timestamp value="2024-11-18T12:58:25+00:00"/>
+          <identifier value="urn:uuid:00aa8ec3-f541-4fcf-ab3b-c8f051c33040"/>
+          <timestamp value="2024-11-18T13:14:31+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -263,7 +352,7 @@
         <name value="MeltingPotVS"/>
         <title value="Melting Pot Value Set"/>
         <status value="draft"/>
-        <date value="2024-11-18T12:58:10+00:00"/>
+        <date value="2024-11-18T13:14:16+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -272,8 +361,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7affa6d4-d463-4d9a-8ef5-d952ce1bc151"/>
-          <timestamp value="2024-11-18T12:58:25+00:00"/>
+          <identifier value="urn:uuid:412b6ea7-65be-46fc-94b1-d7cbb0f71d0f"/>
+          <timestamp value="2024-11-18T13:14:31+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -426,7 +515,7 @@
         <name value="ModifiedAdministrativeGender"/>
         <title value="ModifiedAdministrativeGender"/>
         <status value="draft"/>
-        <date value="2024-11-18T12:58:10+00:00"/>
+        <date value="2024-11-18T13:14:16+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -435,8 +524,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d0cf8b73-9e17-4f62-8b49-a23a9752e280"/>
-          <timestamp value="2024-11-18T12:58:27+00:00"/>
+          <identifier value="urn:uuid:4b5e7521-bdc5-4cf0-ae19-699a115cec04"/>
+          <timestamp value="2024-11-18T13:14:33+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -567,7 +656,7 @@
         <name value="TypeCarteVS"/>
         <title value="Type Carte Value Set"/>
         <status value="draft"/>
-        <date value="2024-11-18T12:58:10+00:00"/>
+        <date value="2024-11-18T13:14:16+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -576,8 +665,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5a5e0e7a-de84-4f63-8452-40027f480c70"/>
-          <timestamp value="2024-11-18T12:58:27+00:00"/>
+          <identifier value="urn:uuid:cebb562d-2671-4a51-b57e-34b44c2f7c37"/>
+          <timestamp value="2024-11-18T13:14:33+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>

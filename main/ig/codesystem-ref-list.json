@@ -46,7 +46,8 @@
       "description" : "Compétences des professionnels de santé.",
       "uses" : {
       },
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
+      "ValueSet-CompetenceNewDisplay.html" : "Competence Value Set"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/type-carte-code-system",

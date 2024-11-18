@@ -1,9 +1,9 @@
 ExampleIG : Validation Results
 =========================================
 
-err = 0, warn = 17, info = 4
+err = 0, warn = 18, info = 4
 IG Publisher Version: 1.7.2
-Generated Mon Nov 18 12:58:36 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.test-termino#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/test-termino)
+Generated Mon Nov 18 13:14:42 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.test-termino#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/test-termino)
  Build Errors : 0 / 3 / 0
  /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
  /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
@@ -11,6 +11,7 @@ Generated Mon Nov 18 12:58:36 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.test-
  /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/Patient-frpatient-exemple : 0 / 0 / 1
  /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/StructureDefinition-EyeColor : 0 / 2 / 1
  /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/StructureDefinition-fr-patient : 0 / 2 / 1
+ /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/ValueSet-CompetenceNewDisplay : 0 / 1 / 1
  /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/ValueSet-EyeColorVS : 0 / 1 / 1
  /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/ValueSet-MeltingPotVS : 0 / 1 / 2
  /home/runner/work/test-termino/test-termino/igSource/fsh-generated/resources/ValueSet-MixLoincNOS : 0 / 2 / 2
@@ -37,6 +38,8 @@ WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir
 == fsh-generated/resources/StructureDefinition-fr-patient.json ==
 WARNING: StructureDefinition/fr-patient: StructureDefinition.differential.element[3].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
 WARNING: StructureDefinition/fr-patient: StructureDefinition.snapshot.element[10].slicing.discriminator[0]: The discriminator type 'pattern' has been deprecated. Use type=fixed with a pattern[x] instead
+== fsh-generated/resources/ValueSet-CompetenceNewDisplay.json ==
+WARNING: ValueSet/CompetenceNewDisplay: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-EyeColorVS.json ==
 WARNING: ValueSet/EyeColorVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-MeltingPotVS.json ==

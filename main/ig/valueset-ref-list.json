@@ -1,6 +1,17 @@
 {
   "codeSystems" : [
     {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CompetenceNewDisplay",
+      "title" : "Competence Value Set",
+      "description" : "Competence Value Set.",
+      "systems" : [
+        "https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system"
+      ]
+    },
+    {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/EyeColorVS",
       "version" : "0.1.0",
       "status" : "draft",
