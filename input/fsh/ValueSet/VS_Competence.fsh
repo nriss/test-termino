@@ -1,4 +1,4 @@
 ValueSet: CompetenceNewDisplay
 Title: "Competence Value Set"
 Description:  "Competence Value Set."
-* C01#https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system "test modification libelé"
+* https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system#C01 "test modification libelé"
