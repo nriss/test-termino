@@ -1,12 +1,23 @@
 {
   "codeSystems" : [
     {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CodeMosOnly",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CodeMosOnly",
+      "title" : "CodeMosOnly - test code mos only",
+      "description" : "CodeMosOnly - test code mos only",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE"
+      ]
+    },
+    {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "CompetenceNewDisplay",
-      "title" : "Competence Value Set",
-      "description" : "Competence Value Set.",
+      "title" : "Competence Value Set - changement d'un libellé / rap à la TRE",
+      "description" : "Competence Value Set - changement d'un libellé / rap à la TRE",
       "systems" : [
         "https://interop.esante.gouv.fr/ig/fhir/test-termino/CodeSystem/competence-code-system"
       ]
@@ -38,8 +49,8 @@
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "MixLoincNOS",
-      "title" : "MixLoincNOS",
-      "description" : "MixLoincNOS",
+      "title" : "MixLoincNOS - ajout de codes loinc et de codes MOS",
+      "description" : "MixLoincNOS - ajout de codes loinc et de codes MOS",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE",
         "http://loinc.org"

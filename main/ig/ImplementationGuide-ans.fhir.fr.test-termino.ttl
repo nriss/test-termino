@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "ExampleIG"] ; # 
   fhir:title [ fhir:v "ANS IG Example"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-18T13:14:28+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T13:16:20+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -558,11 +558,23 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CodeMosOnly> ;
+         fhir:reference [ fhir:v "ValueSet/CodeMosOnly" ]
+       ] ;
+       fhir:name [ fhir:v "CodeMosOnly - test code mos only" ] ;
+       fhir:description [ fhir:v "CodeMosOnly - test code mos only" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay> ;
          fhir:reference [ fhir:v "ValueSet/CompetenceNewDisplay" ]
        ] ;
-       fhir:name [ fhir:v "Competence Value Set" ] ;
-       fhir:description [ fhir:v "Competence Value Set." ] ;
+       fhir:name [ fhir:v "Competence Value Set - changement d'un libellé / rap à la TRE" ] ;
+       fhir:description [ fhir:v "Competence Value Set - changement d'un libellé / rap à la TRE" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -636,8 +648,8 @@
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/MixLoincNOS> ;
          fhir:reference [ fhir:v "ValueSet/MixLoincNOS" ]
        ] ;
-       fhir:name [ fhir:v "MixLoincNOS" ] ;
-       fhir:description [ fhir:v "MixLoincNOS" ] ;
+       fhir:name [ fhir:v "MixLoincNOS - ajout de codes loinc et de codes MOS" ] ;
+       fhir:description [ fhir:v "MixLoincNOS - ajout de codes loinc et de codes MOS" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

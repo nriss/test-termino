@@ -1,7 +1,8 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay,0.1.0,draft,,CompetenceNewDisplay,Competence Value Set,"Competence Value Set.",,"Internal"
+https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CodeMosOnly,0.1.0,draft,,CodeMosOnly,CodeMosOnly - test code mos only,"CodeMosOnly - test code mos only",,"Other"
+https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay,0.1.0,draft,,CompetenceNewDisplay,Competence Value Set - changement d'un libellé / rap à la TRE,"Competence Value Set - changement d'un libellé / rap à la TRE",,"Internal"
 https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/EyeColorVS,0.1.0,draft,,EyeColorVS,EyeColor Value Set,"Different eye colors.",,"SCT"
 https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/MeltingPotVS,0.1.0,draft,,MeltingPotVS,Melting Pot Value Set,"Melting Pot Value Set.",,"SCT,Internal"
-https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/MixLoincNOS,0.1.0,draft,,MixLoincNOS,MixLoincNOS,"MixLoincNOS",,"LOINC,Other"
+https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/MixLoincNOS,0.1.0,draft,,MixLoincNOS,MixLoincNOS - ajout de codes loinc et de codes MOS,"MixLoincNOS - ajout de codes loinc et de codes MOS",,"LOINC,Other"
 https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/ModifiedAdministrativeGender,0.1.0,draft,,ModifiedAdministrativeGender,ModifiedAdministrativeGender,"AdministrativeGender without unknown code",,"hl7.fhir.r4.core"
 https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/TypeCarteVS,0.1.0,draft,,TypeCarteVS,Type Carte Value Set,"Type Carte Value Set.",,"Internal"

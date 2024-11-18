@@ -8,9 +8,9 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/MixLoincNOS",
   "version" : "0.1.0",
   "name" : "MixLoincNOS",
-  "title" : "MixLoincNOS",
+  "title" : "MixLoincNOS - ajout de codes loinc et de codes MOS",
   "status" : "draft",
-  "date" : "2024-11-18T13:14:28+00:00",
+  "date" : "2024-11-18T13:16:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -19,7 +19,7 @@
       "value" : "https://esante.gouv.fr"
     }]
   }],
-  "description" : "MixLoincNOS",
+  "description" : "MixLoincNOS - ajout de codes loinc et de codes MOS",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

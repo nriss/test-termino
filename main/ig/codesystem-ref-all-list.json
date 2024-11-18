@@ -10,8 +10,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.2"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender",
-      "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender"
+      "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender",
+      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
     },
     {
       "url" : "http://hl7.org/fhir/identifier-use",
@@ -47,7 +47,7 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "ValueSet-MixLoincNOS.html" : "MixLoincNOS"
+      "ValueSet-MixLoincNOS.html" : "MixLoincNOS - ajout de codes loinc et de codes MOS"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -59,8 +59,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-EyeColorVS.html" : "EyeColor Value Set",
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
+      "ValueSet-EyeColorVS.html" : "EyeColor Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
@@ -119,7 +119,7 @@
       "description" : "Compétences des professionnels de santé.",
       "uses" : {
       },
-      "ValueSet-CompetenceNewDisplay.html" : "Competence Value Set",
+      "ValueSet-CompetenceNewDisplay.html" : "Competence Value Set - changement d'un libellé / rap à la TRE",
       "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
     },
     {

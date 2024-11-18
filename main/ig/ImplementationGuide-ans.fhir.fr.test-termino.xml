@@ -10,7 +10,7 @@
   <name value="ExampleIG"/>
   <title value="ANS IG Example"/>
   <status value="draft"/>
-  <date value="2024-11-18T13:14:28+00:00"/>
+  <date value="2024-11-18T13:16:20+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -486,10 +486,21 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/CodeMosOnly"/>
+      </reference>
+      <name value="CodeMosOnly - test code mos only"/>
+      <description value="CodeMosOnly - test code mos only"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/CompetenceNewDisplay"/>
       </reference>
-      <name value="Competence Value Set"/>
-      <description value="Competence Value Set."/>
+      <name value="Competence Value Set - changement d'un libellé / rap à la TRE"/>
+      <description value="Competence Value Set - changement d'un libellé / rap à la TRE"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -554,8 +565,8 @@
       <reference>
         <reference value="ValueSet/MixLoincNOS"/>
       </reference>
-      <name value="MixLoincNOS"/>
-      <description value="MixLoincNOS"/>
+      <name value="MixLoincNOS - ajout de codes loinc et de codes MOS"/>
+      <description value="MixLoincNOS - ajout de codes loinc et de codes MOS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -15,9 +15,9 @@
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CompetenceNewDisplay"] ; # 
-  fhir:title [ fhir:v "Competence Value Set"] ; # 
+  fhir:title [ fhir:v "Competence Value Set - changement d'un libellé / rap à la TRE"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-18T13:14:28+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T13:16:20+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
@@ -26,7 +26,7 @@
        fhir:value [ fhir:v "https://esante.gouv.fr" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Competence Value Set."] ; # 
+  fhir:description [ fhir:v "Competence Value Set - changement d'un libellé / rap à la TRE"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;

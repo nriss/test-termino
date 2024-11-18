@@ -8,9 +8,9 @@
   <url value="https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CompetenceNewDisplay"/>
   <version value="0.1.0"/>
   <name value="CompetenceNewDisplay"/>
-  <title value="Competence Value Set"/>
+  <title value="Competence Value Set - changement d'un libellé / rap à la TRE"/>
   <status value="draft"/>
-  <date value="2024-11-18T13:14:28+00:00"/>
+  <date value="2024-11-18T13:16:20+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -19,7 +19,7 @@
       <value value="https://esante.gouv.fr"/>
     </telecom>
   </contact>
-  <description value="Competence Value Set."/>
+  <description value="Competence Value Set - changement d'un libellé / rap à la TRE"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

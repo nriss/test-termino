@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "CodeMosOnly",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet CodeMosOnly</b></p><a name=\"CodeMosOnly\"> </a><a name=\"hcCodeMosOnly\"> </a><a name=\"CodeMosOnly-fr-FR\"> </a><ul><li>Include all codes defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE</code></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/CodeMosOnly",
+  "version" : "0.1.0",
+  "name" : "CodeMosOnly",
+  "title" : "CodeMosOnly - test code mos only",
+  "status" : "draft",
+  "date" : "2024-11-18T13:16:20+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "CodeMosOnly - test code mos only",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE"
+    }]
+  }
+}

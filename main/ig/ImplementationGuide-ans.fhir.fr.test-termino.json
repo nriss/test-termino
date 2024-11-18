@@ -10,7 +10,7 @@
   "name" : "ExampleIG",
   "title" : "ANS IG Example",
   "status" : "draft",
-  "date" : "2024-11-18T13:14:28+00:00",
+  "date" : "2024-11-18T13:16:20+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -654,10 +654,22 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/CodeMosOnly"
+      },
+      "name" : "CodeMosOnly - test code mos only",
+      "description" : "CodeMosOnly - test code mos only",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/CompetenceNewDisplay"
       },
-      "name" : "Competence Value Set",
-      "description" : "Competence Value Set.",
+      "name" : "Competence Value Set - changement d'un libellé / rap à la TRE",
+      "description" : "Competence Value Set - changement d'un libellé / rap à la TRE",
       "exampleBoolean" : false
     },
     {
@@ -728,8 +740,8 @@
       "reference" : {
         "reference" : "ValueSet/MixLoincNOS"
       },
-      "name" : "MixLoincNOS",
-      "description" : "MixLoincNOS",
+      "name" : "MixLoincNOS - ajout de codes loinc et de codes MOS",
+      "description" : "MixLoincNOS - ajout de codes loinc et de codes MOS",
       "exampleBoolean" : false
     },
     {
