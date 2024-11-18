@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "MixLoincNOS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet MixLoincNOS</b></p><a name=\"MixLoincNOS\"> </a><a name=\"hcMixLoincNOS\"> </a><a name=\"MixLoincNOS-fr-FR\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <code>https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE</code></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/33248-6/\">33248-6</a></td><td style=\"color: #cccccc\">Diabetes status [Identifier]</td></tr><tr><td><a href=\"https://loinc.org/20075-8/\">20075-8</a></td><td>test label surajouté</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/test-termino/ValueSet/MixLoincNOS",
+  "version" : "0.1.0",
+  "name" : "MixLoincNOS",
+  "title" : "MixLoincNOS",
+  "status" : "draft",
+  "date" : "2024-11-18T12:52:48+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "MixLoincNOS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE"
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "33248-6"
+      },
+      {
+        "code" : "20075-8",
+        "display" : "test label surajouté"
+      }]
+    }]
+  }
+}
