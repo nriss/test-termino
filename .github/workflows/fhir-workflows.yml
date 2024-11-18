@@ -1,4 +1,10 @@
 name: Workflow Sushi Tests gitHubpages
+
+permissions:
+  contents: write  # Donne l'autorisation d'écriture sur le dépôt (nécessaire pour pousser des commits, créer des tags, etc.)
+
+
+  
 on:
   workflow_call:
   push:
